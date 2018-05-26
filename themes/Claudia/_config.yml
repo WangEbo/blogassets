@@ -1,0 +1,55 @@
+# Header
+menu:
+  Home: /
+  My Works: /works
+  About: /about
+  #Tags: /tags
+
+rss: /atom.xml
+
+# User Info
+user_name: 王毅博
+user_avatar: http://ww1.sinaimg.cn/bmiddle/844499d6gw1etaw7i7ahcj20bt0b2gm2.jpg
+user_location: Earth
+user_description: "认知 成长"
+user_contact: wbs9510@qq.com
+user_introduction: "正在奋斗的程序猿"
+
+github_username: WangEbo
+twitter_username: Ebo
+weibo_username: 王毅博
+zhihu_username: 王毅博
+facebook_username:
+linkedin_username:
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# display widgets at the bottom of index pages (pagination == 2)
+#index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+#archive_type: 'monthly'
+#show_count: false
+
+# 评论系统
+# 不要用别人的 uid, 自己去注册一个吧
+use_livere: true
+livere_uid: MTAyMC8yOTE4Ni81NzUz
+
+use_disqus: false
+disqus_url: https://haojen.disqus.com/embed.js
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+#twitter:
+#google_plus:
+#fb_admins:
+#fb_app_id:
+
+
