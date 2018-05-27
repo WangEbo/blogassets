@@ -8,7 +8,7 @@ subtitle: 源于热爱
 description: 认知与成长
 keywords: [技术博客,前端,ECMAScript,vue]
 author: 王毅博
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Claudia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,24 +1,26 @@
 ---
 title: flex布局
-date: 2018-05-27 01:11:09
+date: 2017-03-21 01:11:09
 tags: [css,布局,flex]
 ---
 
-#### flex布局
-
 - flex弹性布局，如何容器都能使用display属性指定为flex布局；
-
 - 概念：采用flex布局的元素，简称“容器”；子容器将自动称为氢气成员（flex item）
 
-- 容器模型如下：水平轴（main axis）的起始点(main start)和结束点(main end)；交叉轴(cross axis)的起始点(cross start)以及结束点(cross end)；
+#### 容器模型
+
+- 水平轴（main axis）的起始点(main start)和结束点(main end)；交叉轴(cross axis)的起始点(cross start)以及结束点(cross end)；
+
 
 - 注意，设为 Flex 布局以后，子元素的`float`、`clear`和`vertical-align`属性将失效。
 
   项目默认沿主轴排列，单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size
 
-  ![flex容器模型](./flex.png)
+  ![flex容器模型](/uploads/flex.png)
 
-- 容器的6个属性
+  ​
+
+  ##### 容器的6个属性
 
   1. flex-direction
   2. flex-wrap
@@ -64,7 +66,7 @@ tags: [css,布局,flex]
      5.space-around：每个项目两侧的间隔相等，因此项目之间的间隔比项目与边框的间隔大一倍
      ~~~
 
-     ![justify-content](justify-content.png)
+     ![justify-content](/uploads/justify-content.png)
 
   5. align-items属性定义项目在交叉轴上如何对齐
 
@@ -74,11 +76,11 @@ tags: [css,布局,flex]
      4. baseline：项目的第一行文字的基线对齐
      5. stretch：如果项目未设置高度或设为auto，将占满容器的高度
 
-     ![align-items](align-items.png)
+     ![align-items](/uploads/align-items.png)
 
   6. align-content属性定义多根轴线的对齐方式，如果项目只有一根轴线，该属性无效
 
-- 项目的属性
+  ##### 项目的属性
 
   1. order：定义项目的排列顺序，数值越小，排列越靠前，默认为0
   2. felx-grow属性：定义项目的放大比例饿，默认为0，即如果存在剩余空间，项目也不放大，如果所有项目的`flex-grow`属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的`flex-grow`属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。
